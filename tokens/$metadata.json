@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "global",
-    "color/resilico/light"
+    "color/resilico/light",
+    "color/resilico/dark"
   ]
 }
