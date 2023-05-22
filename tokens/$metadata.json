@@ -2,6 +2,9 @@
   "tokenSetOrder": [
     "global",
     "color/resilico/light",
-    "color/resilico/dark"
+    "color/resilico/dark",
+    "spatial/modular-rounded/default",
+    "typography/base",
+    "typography/default"
   ]
 }
