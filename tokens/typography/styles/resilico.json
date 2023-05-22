@@ -1,0 +1,14 @@
+{
+  "caption": {
+    "caps": {
+      "02": {
+        "value": "{all-caps.2xs}",
+        "type": "typography"
+      },
+      "01": {
+        "value": "{all-caps.xs}",
+        "type": "typography"
+      }
+    }
+  }
+}

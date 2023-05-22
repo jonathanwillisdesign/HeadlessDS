@@ -1,0 +1,30 @@
+{
+  "br-main": {
+    "value": "8",
+    "type": "borderRadius"
+  },
+  "br-inner": {
+    "value": "4",
+    "type": "borderRadius"
+  },
+  "br-outer": {
+    "value": "16",
+    "type": "borderRadius"
+  },
+  "br-full": {
+    "value": "9999",
+    "type": "borderRadius"
+  },
+  "bw-thin": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "bw-med": {
+    "value": "2",
+    "type": "borderWidth"
+  },
+  "bw-thick": {
+    "value": "4",
+    "type": "borderWidth"
+  }
+}

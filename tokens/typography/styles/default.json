@@ -5,8 +5,18 @@
       "type": "typography"
     },
     "01": {
-      "value": "{reg.2xs}",
+      "value": "{reg.xs}",
       "type": "typography"
+    },
+    "caps": {
+      "02": {
+        "value": "{reg.2xs}",
+        "type": "typography"
+      },
+      "01": {
+        "value": "{reg.xs}",
+        "type": "typography"
+      }
     }
   },
   "body": {
@@ -38,30 +48,30 @@
     }
   },
   "heading": {
-    "01": {
-      "value": "{bold.xl}",
-      "type": "typography"
-    },
-    "02": {
-      "value": "{bold.lg}",
+    "04": {
+      "value": "{bold.sm}",
       "type": "typography"
     },
     "03": {
       "value": "{bold.md}",
       "type": "typography"
     },
-    "04": {
-      "value": "{bold.sm}",
+    "02": {
+      "value": "{bold.lg}",
+      "type": "typography"
+    },
+    "01": {
+      "value": "{bold.xl}",
       "type": "typography"
     }
   },
   "display": {
-    "02": {
-      "value": "{black.xl}",
-      "type": "typography"
-    },
     "03": {
       "value": "{black.lg}",
+      "type": "typography"
+    },
+    "02": {
+      "value": "{black.xl}",
       "type": "typography"
     },
     "01": {

@@ -3,9 +3,12 @@
     "global",
     "color/resilico/light",
     "color/resilico/dark",
-    "spatial/modular-rounded/default",
-    "typography/base",
-    "typography/resilico",
-    "typography/default"
+    "spatial/modular-rounded",
+    "typography/font/default",
+    "typography/font/resilico",
+    "typography/styles/default",
+    "typography/styles/resilico",
+    "spatial/resilico",
+    "border/default"
   ]
 }
