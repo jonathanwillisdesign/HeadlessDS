@@ -1,0 +1,35 @@
+{
+  "button": {
+    "slots": {
+      "value": {
+        "itemSpacing": "{xs}"
+      },
+      "type": "composition"
+    },
+    "container": {
+      "primary": {
+        "default": {
+          "value": {
+            "fill": "{primary.9}",
+            "verticalPadding": "{xs}",
+            "horizontalPadding": "{sm}",
+            "borderRadius": "{br-main}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "focus": {
+      "primary": {
+        "default": {
+          "value": {
+            "verticalPadding": "{3xs}",
+            "horizontalPadding": "{3xs}",
+            "spacing": "0"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

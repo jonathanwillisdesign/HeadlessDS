@@ -111,6 +111,10 @@
     "value": "round(({fs-2xl}*{multi.tight})/{grid})*{grid}",
     "type": "lineHeights"
   },
+  "3xs": {
+    "value": "{grid}",
+    "type": "dimension"
+  },
   "2xs": {
     "value": "round((({ratio}^{power.2xs})*{base})/{grid})*{grid}",
     "type": "dimension"

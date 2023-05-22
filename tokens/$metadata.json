@@ -9,6 +9,7 @@
     "typography/styles/default",
     "typography/styles/resilico",
     "spatial/resilico",
-    "border/default"
+    "border/default",
+    "comp/button/default"
   ]
 }
