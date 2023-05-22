@@ -456,5 +456,15 @@
       "value": "#2F2B0C",
       "type": "color"
     }
+  },
+  "on-solid": {
+    "default": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "bright": {
+      "value": "#000000",
+      "type": "color"
+    }
   }
 }

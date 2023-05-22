@@ -11,8 +11,8 @@
         "default": {
           "value": {
             "fill": "{primary.9}",
-            "verticalPadding": "{xs}",
-            "horizontalPadding": "{sm}",
+            "verticalPadding": "{xs}-{focus-gap}",
+            "horizontalPadding": "{sm}-{focus-gap}",
             "borderRadius": "{br-main}"
           },
           "type": "composition"
@@ -23,13 +23,35 @@
       "primary": {
         "default": {
           "value": {
-            "verticalPadding": "{3xs}",
-            "horizontalPadding": "{3xs}",
-            "spacing": "0"
+            "verticalPadding": "{focus-gap}",
+            "horizontalPadding": "{focus-gap}",
+            "spacing": "0",
+            "borderRadius": "{focus-radius}",
+            "borderWidth": "{bw-med}",
+            "borderColor": "{primary.12}",
+            "fill": "rgba({primary.9},0)"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "content": {
+      "primary": {
+        "text": {
+          "value": {
+            "fill": "{on-solid.default}"
           },
           "type": "composition"
         }
       }
     }
+  },
+  "focus-gap": {
+    "value": "{grid}/2",
+    "type": "dimension"
+  },
+  "focus-radius": {
+    "value": "{br-main}+{focus-gap}",
+    "type": "dimension"
   }
 }
