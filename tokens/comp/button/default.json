@@ -7,41 +7,86 @@
       "type": "composition"
     },
     "container": {
-      "primary": {
+      "solid": {
         "default": {
           "value": {
-            "fill": "{primary.9}",
+            "verticalPadding": "{xs}",
+            "horizontalPadding": "{sm}",
+            "borderRadius": "{br-main}"
+          },
+          "type": "composition"
+        },
+        "focus": {
+          "value": {
             "verticalPadding": "{xs}-{focus-gap}",
             "horizontalPadding": "{sm}-{focus-gap}",
-            "borderRadius": "{br-main}"
+            "borderRadius": "{br-main}-{focus-gap}"
+          },
+          "type": "composition"
+        }
+      },
+      "ghost": {
+        "default": {
+          "value": {
+            "verticalPadding": "{xs}",
+            "horizontalPadding": "{sm}",
+            "borderRadius": "{br-main}",
+            "borderWidth": "{bw-med}"
+          },
+          "type": "composition"
+        },
+        "focus": {
+          "value": {
+            "verticalPadding": "{xs}-{focus-gap}",
+            "horizontalPadding": "{sm}-{focus-gap}",
+            "borderRadius": "{br-main}-{focus-gap}",
+            "borderWidth": "{bw-med}"
           },
           "type": "composition"
         }
       }
     },
     "focus": {
-      "primary": {
-        "default": {
-          "value": {
-            "verticalPadding": "{focus-gap}",
-            "horizontalPadding": "{focus-gap}",
-            "spacing": "0",
-            "borderRadius": "{focus-radius}",
-            "borderWidth": "{bw-med}",
-            "borderColor": "{primary.12}",
-            "fill": "rgba({primary.9},0)"
-          },
-          "type": "composition"
-        }
+      "default": {
+        "value": {
+          "verticalPadding": "0",
+          "horizontalPadding": "0",
+          "spacing": "0",
+          "borderRadius": "0",
+          "borderWidth": "0",
+          "fill": "rgba(0,0,0,0)"
+        },
+        "type": "composition"
+      },
+      "focus": {
+        "value": {
+          "verticalPadding": "{focus-gap}",
+          "horizontalPadding": "{focus-gap}",
+          "spacing": "0",
+          "borderRadius": "{xs}",
+          "borderWidth": "{bw-med}",
+          "fill": "rgba(0,0,0,0)"
+        },
+        "type": "composition"
       }
     },
     "content": {
-      "primary": {
-        "text": {
-          "value": {
-            "fill": "{on-solid.default}"
-          },
-          "type": "composition"
+      "solid": {
+        "default": {
+          "text": {
+            "value": {
+              "fill": "{on-solid.default}"
+            },
+            "type": "composition"
+          }
+        },
+        "bright": {
+          "text": {
+            "value": {
+              "fill": "{on-solid.bright}"
+            },
+            "type": "composition"
+          }
         }
       }
     }
