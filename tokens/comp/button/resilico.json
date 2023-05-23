@@ -1,0 +1,66 @@
+{
+  "button": {
+    "container": {
+      "solid": {
+        "default": {
+          "value": {
+            "verticalPadding": "{xs}",
+            "horizontalPadding": "{sm}",
+            "borderRadius": "{br-main}",
+            "boxShadow": "{ds-button}",
+            "borderWidth": "{bw-med}",
+            "borderColor": "{system.12}"
+          },
+          "type": "composition"
+        },
+        "default-icon": {
+          "value": {
+            "verticalPadding": "{2xs}",
+            "horizontalPadding": "{2xs}",
+            "borderRadius": "{br-main}",
+            "boxShadow": "{ds-button}",
+            "borderWidth": "{bw-med}",
+            "borderColor": "{system.12}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "focus": {
+      "default": {
+        "value": {
+          "verticalPadding": "0",
+          "horizontalPadding": "0",
+          "spacing": "0",
+          "borderRadius": "0",
+          "borderWidth": "0",
+          "fill": "rgba(0,0,0,0)"
+        },
+        "type": "composition"
+      },
+      "focus": {
+        "value": {
+          "verticalPadding": "{focus-gap}",
+          "horizontalPadding": "{focus-gap}",
+          "spacing": "0",
+          "borderRadius": "{xs}",
+          "borderWidth": "{bw-med}",
+          "fill": "{system.0}",
+          "boxShadow": "{ds-button}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "ds-button": {
+    "value": {
+      "x": "0",
+      "y": "2",
+      "blur": "0",
+      "spread": "0",
+      "color": "{system.12}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  }
+}

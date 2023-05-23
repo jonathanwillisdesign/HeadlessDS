@@ -11,6 +11,7 @@
     "spatial/resilico",
     "border/default",
     "border/resilico",
-    "comp/button/default"
+    "comp/button/default",
+    "comp/button/resilico"
   ]
 }
