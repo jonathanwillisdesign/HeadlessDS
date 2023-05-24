@@ -12,7 +12,9 @@
           "value": {
             "verticalPadding": "{xs}",
             "horizontalPadding": "{sm}",
-            "borderRadius": "{br-main}"
+            "borderRadius": "{br-main}",
+            "borderWidth": "0",
+            "boxShadow": "{ds-button}"
           },
           "type": "composition"
         },
@@ -20,7 +22,9 @@
           "value": {
             "verticalPadding": "{2xs}",
             "horizontalPadding": "{2xs}",
-            "borderRadius": "{br-main}"
+            "borderRadius": "{br-main}",
+            "borderWidth": "0",
+            "boxShadow": "{ds-button}"
           },
           "type": "composition"
         },
@@ -28,7 +32,9 @@
           "value": {
             "verticalPadding": "{xs}-{focus-gap}",
             "horizontalPadding": "{sm}-{focus-gap}",
-            "borderRadius": "{br-main}-{focus-gap}"
+            "borderRadius": "{br-main}-{focus-gap}",
+            "borderWidth": "0",
+            "boxShadow": "{ds-none}"
           },
           "type": "composition"
         },
@@ -36,7 +42,9 @@
           "value": {
             "verticalPadding": "{2xs}-{focus-gap}",
             "horizontalPadding": "{2xs}-{focus-gap}",
-            "borderRadius": "{br-main}-{focus-gap}"
+            "borderRadius": "{br-main}-{focus-gap}",
+            "borderWidth": "0",
+            "boxShadow": "{ds-none}"
           },
           "type": "composition"
         }
@@ -132,5 +140,27 @@
   "focus-radius": {
     "value": "{br-main}+{focus-gap}",
     "type": "dimension"
+  },
+  "ds-button": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "0",
+      "color": "#000000",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "ds-none": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "0",
+      "color": "#000000",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
   }
 }

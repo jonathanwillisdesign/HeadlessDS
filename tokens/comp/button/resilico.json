@@ -23,6 +23,16 @@
             "borderColor": "{system.12}"
           },
           "type": "composition"
+        },
+        "focus": {
+          "value": {
+            "verticalPadding": "{xs}-{focus-gap}",
+            "horizontalPadding": "{sm}-{focus-gap}",
+            "borderRadius": "{br-main}",
+            "boxShadow": "{ds-none}",
+            "borderWidth": "0"
+          },
+          "type": "composition"
         }
       }
     },
@@ -45,8 +55,8 @@
           "spacing": "0",
           "borderRadius": "{xs}",
           "borderWidth": "{bw-med}",
-          "fill": "{system.0}",
-          "boxShadow": "{ds-button}"
+          "fill": "{system.1}",
+          "boxShadow": "{ds-none}"
         },
         "type": "composition"
       }
