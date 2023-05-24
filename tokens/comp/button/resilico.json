@@ -28,7 +28,7 @@
           "value": {
             "verticalPadding": "{xs}-{focus-gap}",
             "horizontalPadding": "{sm}-{focus-gap}",
-            "borderRadius": "{br-main}",
+            "borderRadius": "{br-main}-{focus-gap}",
             "boxShadow": "{ds-none}",
             "borderWidth": "0"
           },
