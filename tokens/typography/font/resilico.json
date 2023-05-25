@@ -98,7 +98,7 @@
       "value": {
         "fontFamily": "{ff-secondary}",
         "fontWeight": "{fw-Bold}",
-        "lineHeight": "{lh-xs}",
+        "lineHeight": "{lh-sm}",
         "fontSize": "{fs-xs}",
         "letterSpacing": ""
       },

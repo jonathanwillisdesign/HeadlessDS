@@ -8,7 +8,7 @@
     "type": "borderRadius"
   },
   "br-outer": {
-    "value": "{grid}*5",
+    "value": "{grid}*7",
     "type": "borderRadius"
   },
   "br-full": {
