@@ -17,7 +17,7 @@
         "fontFamily": "{ff-secondary}",
         "fontWeight": "{fw-Reg}",
         "lineHeight": "{lh-2xs}",
-        "fontSize": "{fs-xs}",
+        "fontSize": "{fs-2xs}",
         "letterSpacing": ""
       },
       "type": "typography"
@@ -89,7 +89,7 @@
         "fontFamily": "{ff-secondary}",
         "fontWeight": "{fw-Bold}",
         "lineHeight": "{lh-2xs}",
-        "fontSize": "{fs-xs}",
+        "fontSize": "{fs-2xs}",
         "letterSpacing": ""
       },
       "type": "typography"
@@ -234,7 +234,7 @@
         "fontFamily": "{ff-secondary}",
         "fontWeight": "{fw-Med}",
         "lineHeight": "{lh-2xs}",
-        "fontSize": "{fs-xs}",
+        "fontSize": "{fs-2xs}",
         "letterSpacing": ""
       },
       "type": "typography"
@@ -306,7 +306,7 @@
         "fontFamily": "{ff-secondary}",
         "fontWeight": "{fw-Reg}",
         "lineHeight": "{lh-2xs}",
-        "fontSize": "{fs-xs}",
+        "fontSize": "{fs-2xs}",
         "letterSpacing": "{ls-all-caps} ",
         "textCase": "Uppercase"
       },

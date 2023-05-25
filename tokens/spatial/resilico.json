@@ -2,5 +2,13 @@
   "ratio": {
     "value": "1.333",
     "type": "other"
+  },
+  "fs-xs": {
+    "value": "{grid}*3.5",
+    "type": "fontSizes"
+  },
+  "fs-2xs": {
+    "value": "{grid}*3",
+    "type": "fontSizes"
   }
 }
