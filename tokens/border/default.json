@@ -26,5 +26,9 @@
   "bw-thick": {
     "value": "4",
     "type": "borderWidth"
+  },
+  "br-input": {
+    "value": "{grid}*2",
+    "type": "borderRadius"
   }
 }

@@ -26,5 +26,55 @@
   "bw-thick": {
     "value": "4",
     "type": "borderWidth"
+  },
+  "ds-color": {
+    "selected": {
+      "system": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "0",
+          "spread": "0",
+          "color": "{system.8}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "primary": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "0",
+          "spread": "0",
+          "color": "{primary.8}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "default": {
+      "system": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "0",
+          "spread": "0",
+          "color": "{system.6}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "none": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
   }
 }
