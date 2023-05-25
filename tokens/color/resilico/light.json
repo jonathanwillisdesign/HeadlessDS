@@ -466,5 +466,13 @@
       "value": "#000000",
       "type": "color"
     }
+  },
+  "map": {
+    "wide": {
+      "st-marys": {
+        "value": "https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/dVOHTowwIQ/original",
+        "type": "asset"
+      }
+    }
   }
 }
