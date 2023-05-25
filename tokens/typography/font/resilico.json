@@ -26,7 +26,7 @@
       "value": {
         "fontFamily": "{ff-secondary}",
         "fontWeight": "{fw-Reg}",
-        "lineHeight": "{lh-xs}",
+        "lineHeight": "{lh-sm}",
         "fontSize": "{fs-xs}",
         "letterSpacing": ""
       },

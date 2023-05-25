@@ -474,5 +474,11 @@
         "type": "asset"
       }
     }
+  },
+  "gradient": {
+    "background-fade": {
+      "value": "linear-gradient( 180deg, rgba({system.1},0) 0%, rgba({system.1},1) 100%)",
+      "type": "color"
+    }
   }
 }
