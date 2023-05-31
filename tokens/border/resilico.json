@@ -1,6 +1,6 @@
 {
   "br-main": {
-    "value": "{grid}*3",
+    "value": "{grid}*4",
     "type": "borderRadius"
   },
   "br-inner": {

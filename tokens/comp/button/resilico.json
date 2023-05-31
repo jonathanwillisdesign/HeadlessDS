@@ -4,8 +4,8 @@
       "solid": {
         "default": {
           "value": {
-            "verticalPadding": "{xs}",
-            "horizontalPadding": "{sm}",
+            "verticalPadding": "{md}",
+            "horizontalPadding": "{lg}",
             "borderRadius": "{br-main}",
             "boxShadow": "{ds-button}",
             "borderWidth": "{bw-med}",
@@ -31,6 +31,18 @@
             "borderRadius": "{br-main}-{focus-gap}",
             "boxShadow": "{ds-none}",
             "borderWidth": "0"
+          },
+          "type": "composition"
+        }
+      },
+      "ghost": {
+        "default": {
+          "value": {
+            "verticalPadding": "{md}",
+            "horizontalPadding": "{lg}",
+            "borderRadius": "{br-main}",
+            "borderWidth": "{bw-med}",
+            "boxShadow": "{ds-none}"
           },
           "type": "composition"
         }

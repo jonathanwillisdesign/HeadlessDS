@@ -480,5 +480,11 @@
       "value": "linear-gradient( 180deg, rgba({system.1},0) 0%, rgba({system.1},1) 100%)",
       "type": "color"
     }
+  },
+  "brand": {
+    "orange": {
+      "value": "#FF7E27",
+      "type": "color"
+    }
   }
 }
