@@ -36,7 +36,7 @@
       "value": {
         "fontFamily": "{ff-secondary}",
         "fontWeight": "{fw-Reg}",
-        "lineHeight": "{lh-sm}",
+        "lineHeight": "{grid}*6",
         "fontSize": "{fs-sm}",
         "letterSpacing": ""
       },
