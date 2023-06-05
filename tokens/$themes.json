@@ -5,7 +5,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "global": "source",
-      "color/resilico/light": "enabled"
+      "color/resilico/light": "enabled",
+      "spatial/bioliberty": "disabled",
+      "typography/font/bioliberty": "disabled"
     },
     "group": "Mode"
   },
@@ -15,7 +17,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "global": "source",
-      "color/resilico/dark": "enabled"
+      "color/resilico/dark": "enabled",
+      "spatial/bioliberty": "disabled",
+      "typography/font/bioliberty": "disabled"
     },
     "group": "Mode"
   },
@@ -25,11 +29,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "global": "enabled",
-      "spatial/modular-rounded": "enabled",
-      "typography/font/default": "enabled",
+      "spatial/modular-rounded": "source",
+      "typography/font/default": "source",
       "typography/styles/default": "enabled",
       "border/default": "enabled",
-      "comp/button/default": "enabled"
+      "comp/button/default": "enabled",
+      "typography/font/bioliberty": "disabled"
     },
     "group": "Brand"
   },
@@ -39,16 +44,34 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "global": "source",
-      "spatial/modular-rounded": "enabled",
+      "spatial/modular-rounded": "source",
       "spatial/resilico": "enabled",
-      "typography/font/default": "enabled",
-      "typography/font/resilico": "enabled",
+      "typography/font/default": "source",
+      "typography/font/resilico": "source",
       "typography/styles/default": "enabled",
       "typography/styles/resilico": "enabled",
       "border/default": "enabled",
       "border/resilico": "enabled",
       "comp/button/default": "enabled",
-      "comp/button/resilico": "enabled"
+      "comp/button/resilico": "enabled",
+      "typography/font/bioliberty": "disabled"
+    },
+    "group": "Brand"
+  },
+  {
+    "id": "c0527e8ac27fbf868bcd7a5234b18a98f2ca081c",
+    "name": "Bioliberty",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "enabled",
+      "color/resilico/light": "enabled",
+      "spatial/modular-rounded": "source",
+      "typography/font/default": "source",
+      "typography/styles/default": "enabled",
+      "border/default": "enabled",
+      "comp/button/default": "enabled",
+      "spatial/bioliberty": "enabled",
+      "typography/font/bioliberty": "enabled"
     },
     "group": "Brand"
   }
