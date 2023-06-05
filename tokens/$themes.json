@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "id": "1dfe7206134c259754f3ee1c575de9f1a264da69",
+    "name": "Light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "source",
+      "color/resilico/light": "enabled"
+    },
+    "group": "Mode"
+  },
+  {
+    "id": "a83d8e773ac49af4c9bc56f3be000bda7f5ed35e",
+    "name": "Dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "source",
+      "color/resilico/dark": "enabled"
+    },
+    "group": "Mode"
+  },
+  {
+    "id": "4c5bd2dd46e4fc65b8bae3b42365963e86fc83f7",
+    "name": "Default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "enabled",
+      "spatial/modular-rounded": "enabled",
+      "typography/font/default": "enabled",
+      "typography/styles/default": "enabled",
+      "border/default": "enabled",
+      "comp/button/default": "enabled"
+    },
+    "group": "Brand"
+  },
+  {
+    "id": "13b3f6bb5a552f9eb50deed9258d7e74b41feac2",
+    "name": "Resilico",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "source",
+      "spatial/modular-rounded": "enabled",
+      "spatial/resilico": "enabled",
+      "typography/font/default": "enabled",
+      "typography/font/resilico": "enabled",
+      "typography/styles/default": "enabled",
+      "typography/styles/resilico": "enabled",
+      "border/default": "enabled",
+      "border/resilico": "enabled",
+      "comp/button/default": "enabled",
+      "comp/button/resilico": "enabled"
+    },
+    "group": "Brand"
+  }
+]
